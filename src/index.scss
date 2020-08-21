@@ -1,0 +1,80 @@
+#main {
+    h1{
+    text-align: center;
+    }
+#app {
+    width: 205px;
+    color: white;
+    background-color: black;
+    margin: 0px auto 0px auto;
+    padding-left: 5px;
+
+    #subdisplay {
+      text-align: right;
+      vertical-align: bottom;
+      width: 200px;
+      line-height: 30px;
+      font-size: 20px;
+      color: orange;
+    }
+    #display {
+      text-align: right;
+      vertical-align: bottom;
+      width: 200px;
+      line-height: 30px;
+      font-size: 20px;
+    }
+    #clear {
+      width: 100px;
+      height: 50px;
+      background-color: crimson;
+      font-size: 15px;
+      color: white;
+    }
+    .symbol {
+      width: 50px;
+      height: 50px;
+      background-color: lightgray;
+      font-size: 15px;
+      color: white;
+    }
+    .number {
+      width: 50px;
+      height: 50px;
+      background-color: gray;
+      font-size: 15px;
+      color: white;
+    }
+    .decimal {
+      position: relative;
+      top: -25px;
+      width: 50px;
+      height: 50px;
+      background-color: gray;
+      font-size: 15px;
+      color: white;
+    }
+    .zero {
+      position: relative;
+      top: -25px;
+      width: 100px;
+      height: 50px;        
+      background-color: gray;
+      font-size: 15px;
+      color: white;
+    }
+    .equals {
+      position: relative;
+      top: -50px;
+      width: 50px;
+      height: 100px;    
+      font-size: 15px;
+      color: white;
+      background-color: darkblue;
+    }
+  }   
+}
+
+footer {
+    text-align: center;
+}
